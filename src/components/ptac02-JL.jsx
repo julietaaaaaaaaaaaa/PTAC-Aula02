@@ -7,8 +7,7 @@ export default function Header(){
                 <li>Home</li>
                 <li>Tudo</li>
             </ul>
-
-
+            
         </header>
     );
 }

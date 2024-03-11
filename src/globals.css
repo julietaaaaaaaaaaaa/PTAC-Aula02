@@ -7,5 +7,14 @@ footer{
     height: 100px;
     background-color: cornflowerblue;
     border-radius: 2px;
-    margin: top 100px;
+    margin: top 100%;
+
+}
+.menu li{
+cursor: pointer;
+padding: 5px 10px;
+list-style: none;
+}
+.menu{
+    display: flex;
 }
