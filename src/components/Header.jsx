@@ -1,10 +1,12 @@
 export default function Header(){
     return(
         <header>
-            <h1> logo</h1>
+            <img class="logo" src="img/perfilverde.png" alt="" />
             <ul class= "menu">
                 <li>categorias</li>
-                <li>Home</li>
+                <li>livros</li>
+                <li>Casa</li>
+                <li>Infantil</li>
                 <li>Tudo</li>
             </ul>
 
