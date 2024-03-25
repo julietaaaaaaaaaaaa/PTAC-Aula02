@@ -6,16 +6,16 @@
 
 return(
 <main>
-    <p> seu nome:</p>
+    
     <form>
-        <button>
-        </button>
-    <input type ="text"name="nome-conato"id="nome" value= {nome} onChange={  (event)  => setNome(event.target.value)}/>
+    <p> seu nome:</p>
+    <input type ="text"name="nome-contato"id="nome" value= {nome} onChange={  (event)  => setNome(event.target.value)}/>
      {nome}
 <p>seu telefone:</p>
-     <input type ="tel"name="nome-conato"id="telefone"value= {telefone} onChange={  (event)  => setTelefone(event.target.value)}/>
+     <input type ="tel"name="nome-contato"id="telefone"value= {telefone} onChange={  (event)  => setTelefone(event.target.value)}/>
      {telefone}
-    
+
+    <button id="botaoSalvar">Salvar</button>
      </form>
 </main>
 

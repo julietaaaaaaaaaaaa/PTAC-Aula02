@@ -23,7 +23,7 @@ list-style: none;
 font-size: 23px;
 font-style: italic;
 color: deeppink;
-margin-left: 7%;;
+margin-left: 7%;
 
 
 }
@@ -36,3 +36,40 @@ margin-left: 7%;;
     font-size: 30px;
     cursor: pointer;
 }
+
+p{
+    cursor: pointer;
+    padding: 5px 10px;
+    list-style: none;
+    font-size: 23px;
+    color: deeppink;
+    font-style: italic;
+
+      
+}
+h1{
+    cursor: pointer;
+    color: deeppink;
+    font-style:italic;
+    font-size:50px;
+    margin-left: 30%;
+}
+#botaoSalvar{
+    background-color: #b7cd7f;
+    border-radius: 10px;
+    display:flex;
+    margin-top: 20%;
+    border-radius:18%;
+    height: 30px;
+    width: 70px;
+
+}
+Main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+body{
+        background-color:#ffe4ec;
+      } 
