@@ -10,10 +10,12 @@ return(
     <form>
     <p> seu nome:</p>
     <input type ="text"name="nome-contato"id="nome" value= {nome} onChange={  (event)  => setNome(event.target.value)}/>
-     {nome}
-<p>seu telefone:</p>
+    {nome}
+    
+    <p>seu telefone:</p>
      <input type ="tel"name="nome-contato"id="telefone"value= {telefone} onChange={  (event)  => setTelefone(event.target.value)}/>
      {telefone}
+
 
     <button id="botaoSalvar">Salvar</button>
      </form>
