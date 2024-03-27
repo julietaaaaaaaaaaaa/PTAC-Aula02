@@ -37,15 +37,16 @@ margin-left: 7%;
     cursor: pointer;
 }
 
-p{
+label{
     cursor: pointer;
     padding: 5px 10px;
     list-style: none;
     font-size: 23px;
     color: deeppink;
     font-style: italic;
+    display:flex;
 
-      
+
 }
 h1{
     cursor: pointer;
