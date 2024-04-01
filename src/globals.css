@@ -27,9 +27,7 @@ margin-left: 7%;
 
 
 }
-.menu{
-    display: flex;
-}
+
 .insta{
     color: deeppink;
     margin-left: 70%;
@@ -44,8 +42,7 @@ label{
     font-size: 23px;
     color: deeppink;
     font-style: italic;
-    display:flex;
-
+   
 
 }
 h1{
@@ -69,8 +66,10 @@ Main{
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-top:20px;
 
 }
 body{
         background-color:#ffe4ec;
       } 
+
